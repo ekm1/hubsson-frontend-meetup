@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .toggle-active {
+    @apply rounded-full bg-white text-gray-600;
+  }
+}
